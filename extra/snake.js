@@ -203,6 +203,8 @@ class createSnake {
         this.gameContext.fillStyle = '#fff';
         this.gameContext.font = "15px Arial";
         this.gameContext.fillText('Jogar de novo? Aperte espaço!', 100, 250);
+
+        this.goMusic();
       }
     }
   }
@@ -226,7 +228,7 @@ class createSnake {
     up.setAttribute('id', 'up');
     up.textContent = 'UP';
     div.appendChild(up);
-    mainMusic.play()
+    
   
     const divSide = document.createElement('div');
     divSide.setAttribute('class', 'div-side');
@@ -277,6 +279,7 @@ class createSnake {
       gameBack.draw();
       snake.draw();
       apple.draw();
+      mainMusic.play()
   
     }, 1000/13);
   
