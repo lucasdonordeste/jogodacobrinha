@@ -24,6 +24,12 @@ function showButton() {
   loading.style.top = "100%";
 }
 
+
+
+
+
+
+
 //Initializing Canvas
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
@@ -233,4 +239,8 @@ function startMenu() {
   reMenu.style.zIndex = "-1"
 }
 
+
+
 startMenu();
+
+
