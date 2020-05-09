@@ -50,6 +50,7 @@
       display: block;
       margin-top: 20px;
       width: 100vw;
+      padding-top: 40px;
     }
   
     button{
@@ -59,7 +60,7 @@
       border: none;
       color: #ecf0f1;
       background-color: #16a085;
-      font-family: "Press Start 2P", cursive;
+      
     }
   
     .div-side {
