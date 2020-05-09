@@ -1,4 +1,3 @@
-
 //Preloading audio stuff
 var mainMusic = document.getElementById("main_music"),
     foodMusic = document.getElementById("food"), 
@@ -7,6 +6,10 @@ var mainMusic = document.getElementById("main_music"),
 var files = [mainMusic, foodMusic, goMusic];
 var counter = 0;
 
+var start = document.getElementById("start"),
+    loading = document.getElementById("loading");
+
+  
 
 class createSnake {
     constructor(gameContext, gameDiv, gameBack){
@@ -208,6 +211,7 @@ class createSnake {
     const canvas = document.createElement('canvas');
     canvas.width = width;
     canvas.height = height;
+    mainMusic.play()
     app.appendChild(canvas);
     return canvas;
   }
