@@ -205,7 +205,7 @@ function init() {
       goMusic.play();
       
       var tweet = document.getElementById("tweet");
-      tweet.href='http://twitter.com/share?text=I scored ' +score+ ' no Jogo da cobrinha Nordestina! No jogodacobrinhanordestina.netlify.app - - - @agenciaarretada';
+      tweet.href='http://twitter.com/share?text=Eu consegui ' +score+ ' no Jogo da cobrinha Nordestina! Venha você tambem nesse jogo arretado de bom, basta acessar jogodacobrinhanordestina.netlify.app - - - @agenciaarretada';
       
       //Get the gameover text
       var goText = document.getElementById("info2");
