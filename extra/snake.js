@@ -211,7 +211,7 @@ class createSnake {
     const canvas = document.createElement('canvas');
     canvas.width = width;
     canvas.height = height;
-    mainMusic.play()
+   
     app.appendChild(canvas);
     return canvas;
   }
@@ -226,6 +226,7 @@ class createSnake {
     up.setAttribute('id', 'up');
     up.textContent = 'UP';
     div.appendChild(up);
+    mainMusic.play()
   
     const divSide = document.createElement('div');
     divSide.setAttribute('class', 'div-side');
