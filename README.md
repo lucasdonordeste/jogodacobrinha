@@ -3,4 +3,4 @@
 
 # Jogo da Cobrinha Nordestina
 
-<img src= ”https://github.com/lucasdonordeste/jogodacobrinha/issues/1#issue-671712335”>
+<img src=https://user-images.githubusercontent.com/62475727/89134930-92a11280-d4ff-11ea-8192-20835c910204.gif>
